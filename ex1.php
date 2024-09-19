@@ -12,7 +12,7 @@
         <tr>
         <?php
             for($i=0;$i<10;$i++) {
-                echo "<td style='border: 1px solid black; border-collapse: collapse;'>$i</td>";
+                echo "<td style='border: 1px solid black; border-collapse: collapse; padding: 15px;'>$i</td>";
             }
         ?>
         </tr>

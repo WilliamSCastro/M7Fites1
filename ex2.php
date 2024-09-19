@@ -13,14 +13,14 @@
             <?php
                 $n = 30;
                 for($i=65;$i<=$n+65;$i++) {
-                    echo "<td style='border: 1px solid black; border-collapse: collapse;'>".chr($i)."</td>";
+                    echo "<td style='border: 1px solid black; border-collapse: collapse; padding: 15px;'>".chr($i)."</td>";
                 }
             ?>
         </tr>
         <tr>
             <?php
                 for($i=0;$i<=$n;$i++) {
-                    echo "<td style='border: 1px solid black; border-collapse: collapse;'>$i</td>";
+                    echo "<td style='border: 1px solid black; border-collapse: collapse; padding: 15px;'>$i</td>";
                 }
             ?>
         </tr>
