@@ -8,12 +8,10 @@
 <body>
 
 <h1>Exercici_2</h1>
-    <?php
-        $n = 30;
-    ?>
     <table style='border: 1px solid black; border-collapse: collapse;'>
         <tr>
             <?php
+                $n = 30;
                 for($i=65;$i<=$n+65;$i++) {
                     echo "<td style='border: 1px solid black; border-collapse: collapse;'>".chr($i)."</td>";
                 }
