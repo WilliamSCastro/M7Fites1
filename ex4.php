@@ -11,9 +11,9 @@
     <table style='border: 1px solid black; border-collapse: collapse;'>
         <?php
             $n = 5; // columnas
-            for($i=0;$i<=$n;$i++) {
+            for($i=0;$i<$n;$i++) {
                 echo "<tr>";
-                    for($j=0;$j<=$n;$j++) {
+                    for($j=0;$j<$n;$j++) {
                         if ($i === 0 && $j > 0) {
                             echo "<td style='border: 1px solid black; border-collapse: collapse; padding: 15px;'> $j </td>";
                         } elseif ($j == 0 && $i > 0) {
